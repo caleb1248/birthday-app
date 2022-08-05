@@ -33,7 +33,7 @@ export default function App() {
     <div>
       {confetties}
       <button
-        className='fixed top-20 left-1/2 -translate-x-1/2 font-bold text-9xl z-30 hover:scale-125 transition-transform focus-visible:outline-none focus:outline-none'
+        className='fixed top-20 left-1/2 -translate-x-1/2 font-bold text-9xl z-30 hover:scale-125 active:scale-100 transition-transform focus-visible:outline-none focus:outline-none'
         onClick={(e) => {
           const r = () => {
             const v = Math.floor(Math.random() * words.length);
